@@ -20,7 +20,7 @@ USE `LittleLemonDB` ;
 CREATE TABLE IF NOT EXISTS `LittleLemonDB`.`Menu` (
   `MenuID` INT NOT NULL,
   `ItemName` VARCHAR(100) NOT NULL,
-  `CuisuneType` VARCHAR(50) NOT NULL,
+  `CuisineType` VARCHAR(50) NOT NULL,
   `ItemType` VARCHAR(50) NOT NULL,
   `Price` DECIMAL NOT NULL,
   PRIMARY KEY (`MenuID`))
