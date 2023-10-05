@@ -64,7 +64,7 @@ ENGINE = InnoDB;
 CREATE TABLE IF NOT EXISTS `LittleLemonDB`.`Customers` (
   `CustomerID` INT NOT NULL,
   `CustomerName` VARCHAR(200) NOT NULL,
-  `PhoneNumber` INT NOT NULL,
+  `PhoneNumber` CHAR(10) NOT NULL,
   `EmailAddress` VARCHAR(200) NOT NULL,
   PRIMARY KEY (`CustomerID`))
 ENGINE = InnoDB;
