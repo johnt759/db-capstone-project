@@ -99,7 +99,7 @@ ENGINE = InnoDB;
 -- Table `LittleLemonDB`.`Bookings`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `LittleLemonDB`.`Bookings` (
-  `BookingID` INT NOT NULL,
+  `BookingID` INT NOT NULL AUTO_INCREMENT,
   `TableNumber` INT NOT NULL,
   `CustomerID` INT NOT NULL,
   `BookingDate` DATE NOT NULL,
