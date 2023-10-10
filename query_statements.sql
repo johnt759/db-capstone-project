@@ -74,5 +74,5 @@ INSERT INTO Bookings (BookingID, CustomerID, TableNumber, BookingDate, EmployeeI
 (5, 5, 4, "2019-06-01", 2),
 (6, 6, 1, "2020-09-01", 5),
 (7, 7, 5, "2021-03-01", 7),
-(8, 8, 6, "2021-05-01", 8);
+(8, 8, 6, "2022-12-17", 8);
 
